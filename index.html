@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="root">
+    <h1 :class="classe">{{title}}</h1>
+    <div>
+      <img :src="city1_image" :class="width">
+      <div>{{city1}}</div>
+    </div>
+    <div>
+      <img :src="city2_image" :class="width">
+      <div>{{city2}}</div>
+    </div>
+    <div>
+      <img :src="city3_image" :class="width">
+      <div>{{city3}}</div>
+    </div>
+    <div>
+      <img :src="city4_image" :class="width">
+      <div>{{city4}}</div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="./main.js" charset="utf-8"></script>
+</body>
+</html>
