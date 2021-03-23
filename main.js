@@ -11,6 +11,8 @@ el: '#root',
    city2_image: 'https://www.svizzera.net/wp-content/uploads/sites/6/ginevra.jpg',
    city3_image:'https://london.ac.uk/sites/default/files/styles/max_1300x1300/public/2018-10/london-aerial-cityscape-river-thames_1.jpg?itok=6LenFxuz',
    city4_image: 'https://d1ix9yerv4y8lr.cloudfront.net/blog/wp-content/uploads/2019/07/tokyo-ops-7-19.jpg',
-   width: 'img'
+   width: 'img',
+   message: '',
+   choice: scelta_utente
   }
 })

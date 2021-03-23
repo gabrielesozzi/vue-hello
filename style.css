@@ -5,3 +5,10 @@
 img {
   width: 300px;
 }
+
+#scelta_utente {
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

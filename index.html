@@ -26,6 +26,12 @@
       <img :src="city4_image" :class="width">
       <div>{{city4}}</div>
     </div>
+
+    <div :class="choice" id="scelta_utente">
+      <input v-model="message" placeholder="Destinazione scelta">
+      <h2>La destinazione selezionata è: {{message}}</h2>
+    </div>
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
